@@ -17,8 +17,7 @@ if (event.method === 'POST') {
     event.body.entry.map((entry) => {
       entry.messaging.map((messagingItem) => {
         if (messagingItem.message && messagingItem.message.text) {
-          const accessToken = 
-'EAAVZAOvSOwxUBACZBUUEJlPDnFTgttTnZB68K29R6kIXb1mg9g8ub76kEaSvsHzWnczZCvjEi1ZCnNGL9KsxP3ZAo6ZAKDJUgJqY2h2bw3gbypFrpPglvPpI7emY0maqwG4Ezh7mvvAb82m6O540fKZBZCHzaKD3WZBZCU2SAmtWRCgiAZDZD';
+          const accessToken = '<PAGE_ACCESS_TOKEN>'; // Replace with your Page Access Token
 
           const quotes = [
             'Hi, apa kabar',
