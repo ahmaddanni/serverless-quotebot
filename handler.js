@@ -21,12 +21,12 @@ if (event.method === 'POST') {
 'EAAVZAOvSOwxUBACZBUUEJlPDnFTgttTnZB68K29R6kIXb1mg9g8ub76kEaSvsHzWnczZCvjEi1ZCnNGL9KsxP3ZAo6ZAKDJUgJqY2h2bw3gbypFrpPglvPpI7emY0maqwG4Ezh7mvvAb82m6O540fKZBZCHzaKD3WZBZCU2SAmtWRCgiAZDZD';
 
           const quotes = [
-            'Don\'t cry because it\'s over, smile because it happened. - Dr. Seuss',
-            'Be yourself; everyone else is already taken. - Oscar Wilde',
-            'Two things are infinite: the universe and human stupidity; and I\'m not sure about the universe. - Albert Einstein',
-            'Be who you are and say what you feel, because those who mind don\'t matter, and those who matter don\'t mind. - Bernard M. Baruch',
-            'So many books, so little time. - Frank Zappa',
-            'A room without books is like a body without a soul. - Marcus Tullius Cicero'
+            'Hi, apa kabar',
+            'Senang berkenalan dengan anda..:)',
+            'Saya adalah Chatbot machine',
+            'Saya berasal dari Solo',
+            'Saya tidak bisa bahasa jawa',
+            'Saya suka traveling'
           ];
 
           const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
